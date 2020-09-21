@@ -15,7 +15,7 @@
                 content.innerHTML += `<p>${obj.message}</p>`;
             }
             else {
-                content.innerHTML += `<p>${xhr.response}</p>`;
+                content.innerHTML += `<p>${JSON.stringify(obj.users)}</p>`;
             }
         }
     };
